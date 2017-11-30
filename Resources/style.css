@@ -1,8 +1,9 @@
 html {
   font-size: 18px;
   line-height: 1.4;
-  color: white;
+  color: black;
   font-family: Helvetica;
+  background-color: black;
 
 }
 
@@ -12,7 +13,7 @@ div {
 
 .background {
   display: flex;
-  background-image: url('../Resources/style.css');
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,23 +27,31 @@ div {
 .menu-bar {
   width: 960px;
   display: flex;
-  margin-top: 1rem;
   background-color: cadetblue;
-  justify-content: flex-start;
-  align-content: center;
+  height: auto;
+  padding: 1rem 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu-bar img {
   height: 1.5rem;
   margin: 1rem 1rem 1rem 2rem;
+  color: white;
+  display: flex;
 
 }
 
 .menu-bar span {
-
+color: white;
+display: flex;
 }
 
 menu .ul {
   align-items: center;
   margin: 1rem 2rem 1rem 2rem;
+  color: white;
+  display: flex;
 }
