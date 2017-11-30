@@ -5,9 +5,13 @@ html {
   font-family: Helvetica;
 }
 
+div {
+  display: block;
+}
+
 .background {
   display: flex;
-  background-image: url('../Resources/Images/glasses-bg.png');
+  background-image: url('./Resources/style.css');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
