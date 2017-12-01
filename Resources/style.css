@@ -65,12 +65,12 @@ div {
 
 }
 .menu{
-padding: 1rem 0rem 1rem 2rem;
+padding: 1rem 0rem 1rem 0rem;
 align-items: center;
 align-content: center;
 justify-content: flex-end;
 margin-right: 2rem;
-margin-left: 7.5rem;
+display: flex;
 
 
 }
@@ -179,4 +179,57 @@ footer img {
   margin-left: 4rem;
   margin-right: 1rem;
 
+}
+
+.menu .truncated-menu {display: none}
+
+@media only screen and (max-width: 1040px) {
+  .background .menubar {padding: 0;}
+  .tagline {margin-top: 5rem;}
+  .tagline p {padding: 0.75rem 4rem;}
+  .background {height: 22rem;}
+}
+
+@media only screen and (max-width: 800px)  {
+  .background {background-position: 20%;
+  height: 17rem;}
+
+  .background .menubar {max-width: 100%;}
+
+  .menu  .truncated-menu {display: block;}
+  .menu  .main-menu {display: none;}
+  .tagline { width: 100%;
+             text-align: center;
+             padding: 0px 1rem;
+             margin-top: 9rem;
+             font-size: 1rem;
+            display: block;}
+
+.supporting {flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  height: auto;}
+
+.service {
+    height: auto;
+    margin-top: .77rem;
+    font-size: .77rem;}
+
+.info {width: auto;
+margin-top: 1.54rem;}
+
+.info .title {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  justify-content: space-around;}
+
+.info p {
+    padding: 1rem;
+    font-size: .77rem;}
+
+footer {justify-content: center;}
+
+footer p {display: none;}
 }
